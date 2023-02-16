@@ -4,6 +4,7 @@ specifiers:
   '@babel/core': ^7.20.12
   '@emotion/react': ^11.10.5
   '@emotion/styled': ^11.10.5
+  '@mui/icons-material': ^5.11.9
   '@mui/material': ^5.11.9
   '@types/react': ^18.0.24
   '@types/react-dom': ^18.0.8
@@ -16,6 +17,7 @@ dependencies:
   '@babel/core': registry.npmmirror.com/@babel/core/7.20.12
   '@emotion/react': registry.npmmirror.com/@emotion/react/11.10.5_wkiylh6bncbdhwh6tncqb3s2nm
   '@emotion/styled': registry.npmmirror.com/@emotion/styled/11.10.5_cjinou6kcnbro54hfk33pnlsly
+  '@mui/icons-material': registry.npmmirror.com/@mui/icons-material/5.11.9_ofpk46txu7v2f5mzrtv4xsczka
   '@mui/material': registry.npmmirror.com/@mui/material/5.11.9_acl7mc3llczqccvmbrsweq6vga
   react: registry.npmmirror.com/react/18.2.0
   react-dom: registry.npmmirror.com/react-dom/18.2.0_react@18.2.0
@@ -600,6 +602,26 @@ packages:
     resolution: {integrity: sha512-YGEtucQ/Nl91VZkzYaLad47Cdui51n/hW+OQm4210g4N3/nZzBxmGeKfubEalf+ShKH4aYDS86XTO6q/TpZnjQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@mui/core-downloads-tracker/-/core-downloads-tracker-5.11.9.tgz}
     name: '@mui/core-downloads-tracker'
     version: 5.11.9
+    dev: false
+
+  registry.npmmirror.com/@mui/icons-material/5.11.9_ofpk46txu7v2f5mzrtv4xsczka:
+    resolution: {integrity: sha512-SPANMk6K757Q1x48nCwPGdSNb8B71d+2hPMJ0V12VWerpSsbjZtvAPi5FAn13l2O5mwWkvI0Kne+0tCgnNxMNw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@mui/icons-material/-/icons-material-5.11.9.tgz}
+    id: registry.npmmirror.com/@mui/icons-material/5.11.9
+    name: '@mui/icons-material'
+    version: 5.11.9
+    engines: {node: '>=12.0.0'}
+    peerDependencies:
+      '@mui/material': ^5.0.0
+      '@types/react': ^17.0.0 || ^18.0.0
+      react: ^17.0.0 || ^18.0.0
+    peerDependenciesMeta:
+      '@types/react':
+        optional: true
+    dependencies:
+      '@babel/runtime': registry.npmmirror.com/@babel/runtime/7.20.13
+      '@mui/material': registry.npmmirror.com/@mui/material/5.11.9_acl7mc3llczqccvmbrsweq6vga
+      '@types/react': registry.npmmirror.com/@types/react/18.0.28
+      react: registry.npmmirror.com/react/18.2.0
     dev: false
 
   registry.npmmirror.com/@mui/material/5.11.9_acl7mc3llczqccvmbrsweq6vga:
