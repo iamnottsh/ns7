@@ -1,6 +1,6 @@
 import {useEffect, useState} from 'react'
 import ns4 from "./ns4.js";
-import {Box, Collapse, Container, Grid, IconButton, LinearProgress, Link, TextField, Typography} from "@mui/material";
+import {Box, Container, Grid, IconButton, LinearProgress, Link, TextField, Typography} from "@mui/material";
 import {Clear, ContentCopy, ContentPaste} from "@mui/icons-material";
 
 function Site() {
@@ -18,7 +18,7 @@ function Site() {
                 <Typography variant="h4" sx={{flexGrow: 1}}>喵喵隐者4</Typography>
                 <Link href="https://gxlt.lanzouf.com/il0gr0nlq4bg" target="_blank" rel="noopener">安卓版</Link>
             </Box>
-            <Collapse in={!!module}>
+            {module ?
                 <Grid container columns={{xs: 6, md: 12}} spacing={3}>
                     <Grid item xs={6}>
                         <Box sx={{position: 'relative'}}>
@@ -96,9 +96,9 @@ function Site() {
                             </Box>
                         </Box>
                     </Grid>
-                </Grid>
-                {!module && <LinearProgress/>}
-            </Collapse>
+                </Grid> :
+                <LinearProgress/>
+            }
         </Container>
     )
 }
