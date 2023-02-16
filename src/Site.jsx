@@ -16,7 +16,7 @@ function Site() {
         <Container component="main" sx={{mt: 2, mb: 2}} maxWidth="xl">
             <Box sx={{display: 'flex', alignItems: 'center', mb: 6}}>
                 <Typography variant="h4" sx={{flexGrow: 1}}>喵喵隐者4</Typography>
-                <Link href="https://gxlt.lanzouf.com/iyamb0nsj9za" target="_blank" rel="noopener">安卓版</Link>
+                <Link href="https://gxlt.lanzouf.com/ixorN0nsntpe" target="_blank" rel="noopener">安卓版</Link>
             </Box>
             {module ?
                 <Grid container columns={{xs: 6, md: 12}} spacing={3}>
